@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cross-Site Scripting in Go
+title: Cross-Site Scripting (XSS) in Go
 subtitle: Guessing unknown MIME types
 tags: []
 ---
