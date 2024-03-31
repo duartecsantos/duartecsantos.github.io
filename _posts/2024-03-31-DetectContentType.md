@@ -8,7 +8,7 @@ tags: []
 The other day I was investigating the findings of a certain SAST scanner for a Go project. 
 In particular, I was analyzing the Reflected Cross-Site Scripting (XSS) results. 
 At first glance, one of these results looked like a True Positive (TP) — it was writing a partially user-controllable value directly to a response stream. 
-As I have no experience of Go, I decided to put my assumptions aside and investigate this result a little further. 
+As I have no experience with Go, I decided to put my assumptions aside and investigate this result a little further. 
 My gut wouldn't let me go ahead and mark it directly as TP, as this seemingly trivial result left me with an annoying itch that had to be scratched. 
 In the worst case, I wasted some time, but I learned a bit about a new language. Not bad!
 
