@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Guessing unknown MIME types in Go
-subtitle: http.DetectContentType
+title: Cross-Site Scripting in Go
+subtitle: Guessing unknown MIME types
 tags: []
 ---
 
