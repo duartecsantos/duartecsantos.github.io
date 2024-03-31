@@ -55,7 +55,7 @@ The attempt I found most interesting was to use `head><body><script>alert(1)</sc
 That said, there may be some way of cheating this mechanism that I haven't thought of.
 If anyone wants to exchange ideas, feel free to contact me.
 
-Now, of course this response could still be consumed by a user in an insecure way and result in an XSS, but in isolation that's not going to happen.
+Now, of course this response can still be easily consumed by a user in an insecure way and result in an XSS, but in isolation that's not going to happen.
 In product terms, this could even be a good argument for a SAST to mark this as a True Positive, but that kind of debate is outside the scope of this blogpost.
 In any case, no one should blindly trust this type of mechanism as a guarantee of security...
 Please, if you want to implement similar code, just use the `html/template` package to produce escaped output. It's simple and safe.
